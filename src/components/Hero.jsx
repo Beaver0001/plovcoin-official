@@ -25,7 +25,8 @@ function Hero() {
       </div>
     </section>
   )
-}
+}// 🔁 Vercel rebuild trigger
+
 // trigger rebuild on Vercel
 
 export default Hero
