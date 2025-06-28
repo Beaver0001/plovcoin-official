@@ -1,25 +1,13 @@
 import React from "react"
-import bgImage from "../assets/hero-meme-bg.png"
 
 function Hero() {
   return (
-    <section
-      className="min-h-screen w-full bg-no-repeat bg-cover bg-center text-[#f9e3b5] flex flex-col items-center justify-center px-6 text-center"
-      style={{ backgroundImage: `url(${bgImage})` }}
-    >
-      <h1 className="text-6xl md:text-8xl font-extrabold drop-shadow-lg mb-4 tracking-wide uppercase">
-        PLOVCOIN
-      </h1>
-      <p className="text-xl md:text-2xl mb-10 font-semibold tracking-wider text-yellow-300">
-        $PLOV IS COOKING ☄️🔥
-      </p>
-      <div className="flex gap-6 flex-wrap justify-center">
-        <button className="bg-yellow-400 text-black px-8 py-4 text-xl font-bold rounded-full shadow-xl hover:bg-yellow-500 transition">
-          BUY $PLOV
-        </button>
-        <button className="bg-yellow-400 text-black px-8 py-4 text-xl font-bold rounded-full shadow-xl hover:bg-yellow-500 transition">
-          WHITEPAPER
-        </button>
+    <section className="bg-[#1a0a05] text-yellow-100 py-20 px-6 text-center">
+      <h1 className="text-5xl md:text-6xl font-bold mb-6">PlovCoin</h1>
+      <p className="text-lg md:text-xl mb-8">Горячий мемкоин с ароматом хайпа</p>
+      <div className="flex justify-center gap-4">
+        <a href="#" className="bg-yellow-400 text-black font-bold px-6 py-3 rounded-full hover:bg-yellow-500 transition">Купить $PLOV</a>
+        <a href="#" className="bg-transparent border border-yellow-400 text-yellow-400 font-bold px-6 py-3 rounded-full hover:bg-yellow-500 hover:text-black transition">Whitepaper</a>
       </div>
     </section>
   )
