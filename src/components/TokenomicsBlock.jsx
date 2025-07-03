@@ -38,7 +38,16 @@ function TokenomicsBlock() {
         </ResponsiveContainer>
         <div className="mt-8 text-sm text-yellow-300 leading-relaxed">
           Total Supply: 13 013 003 000 $PLOV<br />
-          Mint Address: Edo7P6PigSTgKB1Nn3bfeTuadudrefgkSdCT5jc6jWTh<br />
+          Mint Address:{" "}
+          <a
+            href="https://solscan.io/token/B4LhtMwbKh8D1nfj7dE6FefKpg7U2qkbYC371DBcJq9x"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-yellow-200 hover:text-white"
+          >
+            B4LhtMwbKh8D1nfj7dE6FefKpg7U2qkbYC371DBcJq9x
+          </a>
+          <br />
           Mint authority: отключена для доверия — казан запечатан!
         </div>
       </div>

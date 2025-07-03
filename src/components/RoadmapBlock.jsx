@@ -11,7 +11,7 @@ function RoadmapBlock() {
         <div>
           <h3 className="text-2xl font-bold mb-2">🔥 2025: Разогрев казана</h3>
           <ul className="list-disc pl-6 space-y-1">
-            <li>Whitepaper v1.5 готов, хайп взлетает!</li>
+            <li>Whitepaper v1.6 опубликован, хайп зашкаливает!</li>
             <li>Логотип: Plov Rocket зажигает галактику (Q3)</li>
             <li>Сайт: plovcoin.com — база для Plov Army (Q3)</li>
             <li>Airdrop волны 1–2: 7.5 млрд $PLOV (Q3–Q4)</li>
